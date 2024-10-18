@@ -6,5 +6,6 @@ def get_activity():
     for user in data.keys():
         activity.append(f'{user} зарегистрировался {data[user]["date"]}')
     
+    activity.reverse()
     return activity
     
