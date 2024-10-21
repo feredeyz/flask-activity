@@ -21,8 +21,6 @@ div {
     animation: appear 1.15s cubic-bezier(.28,.58,.58,.96) 0.1s 1 normal both;
 }
 
-/* cubic-bezier(.5,.51,.45,.92) */
-
 button {
     width: 225px;
     height: 150px;

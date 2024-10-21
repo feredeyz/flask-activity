@@ -11,6 +11,15 @@
         {% for activity in activities %}
             <li>{{ activity }}</li>
         {% endfor %}
+        <br>
+        {% for msg in msgs %}
+            <li>{{ msg }}</li>
+        {% endfor %}
+        <br>
+        <form action="/data/msg" method="post">
+            <input type="text" name="msg">
+            <input type="submit" value="Отправить">
+        </form>
     </ul>
 </body>
 </html>
